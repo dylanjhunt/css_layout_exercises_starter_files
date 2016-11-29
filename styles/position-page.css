@@ -1,1 +1,53 @@
+nav {
+position: fixed;
+display: flex;
+width: 100%;
+padding: 0px 60px;
+background: grey;
+}
 
+nav ul {
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  border-right: 2px solid #000;
+  padding: 1px 10px;
+}
+
+nav img {
+  border-radius: 100%;
+  border: 1px solid #000;
+  height: 50px;
+  margin: 4px;
+}
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.green-box {
+  border: 10px green dotted;
+  height: 300px;
+  width: 600px;
+  margin: auto;
+  position: relative;
+  top: 250px;
+}
+.green-box img {
+  height: 200px;
+  width: 200px;
+  position: absolute
+}
+.dog {
+  left: 450px;
+  top: 200px;
+}
+.cat {
+  right:500px;
+  bottom: 200px;
+}
