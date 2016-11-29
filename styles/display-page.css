@@ -1,0 +1,47 @@
+* {
+  font-size: 0;
+}
+
+.full {
+  width: 900px;
+  height:500px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.half {
+  display: inline-block;
+  width: 50%;
+  height: 200px;
+  font-size: 0px;
+}
+
+.third {
+  display: inline-block;
+  width: 33.33%;
+  height: 300px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
